@@ -1,3 +1,3 @@
 # 711-final-project
-## Nicole,Kim,Megan
+## Nicole, Kim, Megan
 Fecal microbiota transplant (FMT) study. Metabarcoding of human guts
