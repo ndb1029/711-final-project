@@ -30,13 +30,16 @@ mkdir trimmed_fastq
 
 # LAB TODAY APRIL 28
 
+# For File 2
+
+
 cp /tmp/gen711_project_data/fastp-single.sh .
 chmod +x fastp-single.sh
 ./fastp-single.sh 120 /tmp/gen711_project_data/FMT_3/fmt-tutorial-demux-2 trimmed_fastqs_2
 
 conda activate qiime2-2022.8
 
-# TRIMMED_FASTQ1:
+qiime tools import --type "SampleData[PairedEndSequencesWithQuality]" --input-format CasavaOneEightSingleLanePerSampleDirFmt --input-path /home/users/ndb1029/711-final-project/trimmed_fastqs --output-path /home/users/ndb1029/711-final-project/trimmed_fastqs/qiime_fastqs
 
 qiime cutadapt trim-single --i-demultiplexed-sequences qiime_trimmed_fastqs_1.qza --p-front TACGTATGGTGCA --p-discard-untrimmed --p-match-adapter-wildcards --verbose --o-trimmed-sequences qiime_fastqs.qza
 
@@ -51,5 +54,30 @@ qiime metadata tabulate --m-input-file denoising-stats.qza --o-visualization den
 qiime feature-table tabulate-seqs --i-data rep-seqs.qza --o-visualization rep-seqs.qzv
 
 
+
 # .gza files saved under:
 /home/users/ndb1029/711-final-project/trimmed_fastqs 
+
+
+
+----
+
+
+# For File 1:
+
+conda activate genomics
+cp /tmp/gen711_project_data/fastp-single.sh .
+chmod +x fastp-single.sh
+./fastp-single.sh 120 /tmp/gen711_project_data/FMT_3/fmt-tutorial-demux-1 trimmed_fastqs_1
+conda activate qiime2-2022.8
+qiime tools import --type "SampleData[SequencesWithQuality]" --input-format CasavaOneEightSingleLanePerSampleDirFmt --input-path /home/users/ndb1029/711-final-project/trimmed_fastqs_1 --output-path qiime_trimmed_fastqs_1
+
+qiime cutadapt trim-single --i-demultiplexed-sequences qiime_trimmed_fastqs_1.qza --p-front TACGTATGGTGCA --p-discard-untrimmed --p-match-adapter-wildcards --verbose --o-trimmed-sequences qiime_fastqs1.qza
+qiime demux summarize --i-data qiime_fastqs1.qza --o-visualization demux_1
+
+###denoising
+qiime dada2 denoise-single --i-demultiplexed-seqs qiime_fastqs1.qza --p-trunc-len 50 --p-trim-left 13 --p-n-threads 4 --o-denoising-stats denoising-stats.qza --o-table feature_table.qza --o-representative-sequences rep-seqs.qza
+    
+qiime metadata tabulate --m-input-file denoising-stats.qza --o-visualization denoising-stats.qzv
+
+qiime feature-table tabulate-seqs --i-data rep-seqs.qza --o-visualization rep-seqs.qzv
