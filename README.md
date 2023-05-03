@@ -51,15 +51,11 @@ Nicole Benjamin, Kim Bonanno, Megan Buff
   conda activate qiime2-2022.8
 
     qiime feature-table merge-seqs --i-data /home/users/ndb1029/711-final-project/gza_files_1/rep-seqs.qza --i-data /home/users/ndb1029/711-final-project/trimmed_fastqs/rep-seqs.qza --o-merged-data /home/users/ndb1029/711-final-project/Taxonomy/table/merged.rep-seqs.qza
-# Saved FeatureData[Sequence] to: /home/users/ndb1029/711-final-project/Taxonomy/table/merged.rep-seqs.qza
 
     qiime feature-classifier classify-sklearn --i-classifier /tmp/gen711_project_data/reference_databases/classifier.qza --i-reads /home/users/ndb1029/711-final-project/Taxonomy/table/merged.rep-seqs.qza --o-classification /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza
-# Saved FeatureData[Taxonomy] to: /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza 
 
 
     qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/gza_files_1/feature_table.qza --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization /home/users/ndb1029/711-final-project/Taxonomy/barplot1/barplot-1.qzv
-# Saved Visualization to: /home/users/ndb1029/711-final-project/Taxonomy/barplot1/barplot-1.qzv
 
 
     qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/trimmed_fastqs/feature_table.qza --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization /home/users/ndb1029/711-final-project/Taxonomy/barplot2/barplot-2.qzv
-# Saved Visualization to: /home/users/ndb1029/711-final-project/Taxonomy/barplot2/barplot-2.qzv 
