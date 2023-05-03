@@ -1,3 +1,5 @@
+![level-7-bars-2](https://user-images.githubusercontent.com/130377747/235944118-d5ec5bd2-8c5a-49cd-bab1-49c9ca4f8a96.svg)
+![level-7-bars](https://user-images.githubusercontent.com/130377747/235944124-410505f8-da6d-4a54-b0d8-d692a458b38e.svg)
 # 711-final-project
 
 # Fecal microbiota transplant (FMT) study. Metabarcoding of human guts
