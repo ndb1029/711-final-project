@@ -73,17 +73,9 @@ qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/gza_files_1/f
     /home/users/ndb1029/711-final-project/my-barplot.qzv
 
 
-qiime feature-table filter-samples --i-table /home/users/ndb1029/711-final-project/gza_files_1/feature_table.qza --m-metadata-file sample-metadata.tsv --o-filtered-table new_samples_table.qza
-        Saved FeatureTable[Frequency] to: new_samples_table.qza
-    /home/users/ndb1029/711-final-project/new_samples_table.qza
-
-
 
 OTHER DATESET:
 qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/trimmed_fastqs/feature_table.qza --m-metadata-file sample-metadata.tsv --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization my-barplot2.qzv
     Saved Visualization to: my-barplot2.qzv
     /home/users/ndb1029/711-final-project/my-barplot2.qzv
 
-qiime feature-table filter-samples --i-table /home/users/ndb1029/711-final-project/trimmed_fastqs/feature_table.qza --m-metadata-file sample-metadata.tsv --o-filtered-table new_samples_table2.qza
-    Saved FeatureTable[Frequency] to: new_samples_table2.qza
-    /home/users/ndb1029/711-final-project/new_samples_table2.qza
