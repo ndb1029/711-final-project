@@ -64,3 +64,26 @@ Nicole Benjamin, Kim Bonanno, Megan Buff
 # Taxonomy Plots 
 ![level-7-bars-2](https://user-images.githubusercontent.com/130377747/235944118-d5ec5bd2-8c5a-49cd-bab1-49c9ca4f8a96.svg)
 ![level-7-bars](https://user-images.githubusercontent.com/130377747/235944124-410505f8-da6d-4a54-b0d8-d692a458b38e.svg)
+
+
+# Metadata 
+cp /tmp/gen711_project_data/FMT_3/sample-metadata.tsv /home/users/ndb1029/711-final-project
+qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/gza_files_1/feature_table.qza --m-metadata-file sample-metadata.tsv --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization my-barplot.qzv
+    # Saved Visualization to: my-barplot.qzv
+    /home/users/ndb1029/711-final-project/my-barplot.qzv
+
+
+qiime feature-table filter-samples --i-table /home/users/ndb1029/711-final-project/gza_files_1/feature_table.qza --m-metadata-file sample-metadata.tsv --o-filtered-table new_samples_table.qza
+        Saved FeatureTable[Frequency] to: new_samples_table.qza
+    /home/users/ndb1029/711-final-project/new_samples_table.qza
+
+
+
+OTHER DATESET:
+qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/trimmed_fastqs/feature_table.qza --m-metadata-file sample-metadata.tsv --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization my-barplot2.qzv
+    Saved Visualization to: my-barplot2.qzv
+    /home/users/ndb1029/711-final-project/my-barplot2.qzv
+
+qiime feature-table filter-samples --i-table /home/users/ndb1029/711-final-project/trimmed_fastqs/feature_table.qza --m-metadata-file sample-metadata.tsv --o-filtered-table new_samples_table2.qza
+    Saved FeatureTable[Frequency] to: new_samples_table2.qza
+    /home/users/ndb1029/711-final-project/new_samples_table2.qza
