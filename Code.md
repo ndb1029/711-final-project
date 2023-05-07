@@ -1,15 +1,3 @@
-# 711-final-project
-
-# Fecal microbiota transplant (FMT) study. Metabarcoding of human guts
-
-# Authors
-Nicole Benjamin, Kim Bonanno, Megan Buff
-
-# Background
-
-
-# Overview of pipeline
-
 # CODE
 
 ## FASTQ Sample QA/QC
