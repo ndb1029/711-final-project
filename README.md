@@ -12,6 +12,8 @@
   Researchers were testing whether a fecal microbiota transplant would alleviate both the severity of GI and ASD symptoms. To test this, thirty eight individuals under the age of 18 were enrolled in this study. These individuals had both ASD and GI problems. Twenty of these indiviudals were used as a control and the other eighteen were the experimental group and underwent a transplant. Data was then collected over eighteen weeks. 
   
   Data collection consisted primarily from fecal sample swabs, and ocassionally stool samples. Parents were then asked to rate their child's ASD symptoms and severity of GI problems. Using the samples, microbial DNA was extracted using PowerSoil® DNA Isolation Kit (Kang et al., 2017). A librray was then prepped and a barcoded primer set was used to sequence, identify, then amplify the 16S rRNA V4 region of the microbial DNA.
+  
+  A subset of Kang's data was then extracted to utilzie in the QUIIME 2 exercise. This subset of data consists of a total of ten individuals. Then, between six and sixteen samples per individual were added to the dataset. 
 
 # Findings
 
