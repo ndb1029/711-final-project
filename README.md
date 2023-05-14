@@ -19,6 +19,12 @@
 
 # Findings
 
+<img width="1029" alt="Screenshot 2023-05-14 at 7 29 45 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/397d1d39-bdf0-48de-bca4-db79ec6afb8d">
+<img width="1071" alt="Screenshot 2023-05-14 at 7 29 55 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/ffa5a645-7982-497b-a925-eaa1ea1f0a44">
+<img width="1073" alt="Screenshot 2023-05-14 at 7 30 09 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/350bec14-8052-4cb2-bd15-b05e06e1a45c">
+<img width="1077" alt="Screenshot 2023-05-14 at 7 30 16 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/5aaca985-ed42-491f-b3dc-ccd862881cb7">
+
+
 # Citations
   Kang, DW., Adams, J.B., Gregory, A.C. et al. Microbiota Transfer Therapy alters gut ecosystem and improves gastrointestinal and autism symptoms: an open-label study.Microbiome 5, 10 (2017). https://doi.org/10.1186/s40168-016-0225-7
   
