@@ -4,6 +4,7 @@
   By: Nicole Benjamin, Megan Buff & Kim Bonanno
   
 # Background
+  The Fecal Microbiome Transplant study subdataset was adapted from research paper "Microbiota Transfer Therapy alters gut ecosystem and improves gastrointestinal and autism symptoms: an open-label study" (Kang et al., 2017). In this study, researchers are trying to identify if a fecal microbiome transplant would help alleviate both autisim spectrum disorder and gastrointestinal symptoms.
 
 # Methods
 
