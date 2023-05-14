@@ -54,16 +54,42 @@
 ![level-7-bars](https://user-images.githubusercontent.com/130377747/235944124-410505f8-da6d-4a54-b0d8-d692a458b38e.svg)
 
 
-# Metadata 
-cp /tmp/gen711_project_data/FMT_3/sample-metadata.tsv /home/users/ndb1029/711-final-project
-qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/gza_files_1/feature_table.qza --m-metadata-file sample-metadata.tsv --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization my-barplot.qzv
-    # Saved Visualization to: my-barplot.qzv
-    /home/users/ndb1029/711-final-project/my-barplot.qzv
+# Metadata for sample 1
+    cp /tmp/gen711_project_data/FMT_3/sample-metadata.tsv /home/users/ndb1029/711-final-project
+    qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/gza_files_1/feature_table.qza --m-metadata-file sample-metadata.tsv --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization my-barplot.qzv
+
+    qiime phylogeny align-to-tree-mafft-fasttree --i-sequences /home/users/ndb1029/711-final-project/trimmed_fastqs/rep-seqs.qza --o-alignment alignments --o-masked-alignment masked-alignment --o-tree unrooted-tree --o-rooted-tree rooted-tree --p-n-threads 4
+
+    qiime diversity core-metrics-phylogenetic --i-phylogeny /home/users/ndb1029/711-final-project/trimmed_fastqs/rooted-tree.qza --i-table feature_table.qza --p-sampling-depth 500 --m-metadata-file sample-metadata.tsv --p-n-jobs-or-threads 4 --output-dir core-metrics
+
+    qiime feature-table relative-frequency --i-table /home/users/ndb1029/711-final-project/trimmed_fastqs/core-metrics/rarefied_table.qza --o-relative-frequency-table relative_rarefied_table
+
+    qiime diversity pcoa-biplot --i-features /home/users/ndb1029/711-final-project/trimmed_fastqs/core-metrics/relative_rarefied_table.qza --i-pcoa /home/users/ndb1029/711-final-project/trimmed_fastqs/core-metrics/unweighted_unifrac_pcoa_results.qza --o-biplot unweighted_unifrac_pcoa_biplot
+
+    qiime emperor biplot --i-biplot /home/users/ndb1029/711-final-project/trimmed_fastqs/core-metrics/unweighted_unifrac_pcoa_biplot.qza --m-sample-metadata-file sample-metadata.tsv --o-visualization unweighted_unifrac_pcoa_biplot
+
+    qiime diversity alpha-group-significance --i-alpha-diversity /home/users/ndb1029/711-final-project/trimmed_fastqs/core-metrics/shannon_vector.qza --m-metadata-file sample-metadata.tsv --o-visualization alpha-group-significance
+
+    qiime diversity beta-group-significance --i-distance-matrix /home/users/ndb1029/711-final-project/trimmed_fastqs/core-metrics/unweighted_unifrac_distance_matrix.qza --m-metadata-file sample-metadata.tsv  --m-metadata-column <column_in_metadata_that_groups_replicates> --p-pairwise --o-visualization unweighted_unifrac-beta-group-significance
 
 
 
-OTHER DATESET:
-qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/trimmed_fastqs/feature_table.qza --m-metadata-file sample-metadata.tsv --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization my-barplot2.qzv
-    Saved Visualization to: my-barplot2.qzv
-    /home/users/ndb1029/711-final-project/my-barplot2.qzv
+
+# Metadata for Sample 2:
+    qiime taxa barplot --i-table /home/users/ndb1029/711-final-project/trimmed_fastqs/feature_table.qza --m-metadata-file sample-metadata.tsv --i-taxonomy /home/users/ndb1029/711-final-project/Taxonomy/classifier/FMT-taxonomy.qza --o-visualization my-barplot2.qzv
+
+    qiime phylogeny align-to-tree-mafft-fasttree --i-sequences /home/users/ndb1029/711-final-project/gza_files_1/rep-seqs.qza --o-alignment alignments --o-masked-alignment masked-alignment --o-tree unrooted-tree --o-rooted-tree rooted-tree --p-n-threads 4
+
+    qiime diversity core-metrics-phylogenetic --i-phylogeny /home/users/ndb1029/711-final-project/gza_files_1/rooted-tree.qza --i-table feature_table.qza --p-sampling-depth 500 --m-metadata-file sample-metadata.tsv --p-n-jobs-or-threads 4 --output-dir core-metrics
+
+    cp /tmp/gen711_project_data/FMT_3/sample-metadata.tsv /home/users/ndb1029/711-final-project/gza_files_1/core-metrics
+
+    qiime feature-table relative-frequency --i-table /home/users/ndb1029/711-final-project/gza_files_1/core-metrics/rarefied_table.qza --o-relative-frequency-table relative_rarefied_table
+
+    qiime diversity pcoa-biplot --i-features /home/users/ndb1029/711-final-project/gza_files_1/core-metrics/relative_rarefied_table.qza --i-pcoa /home/users/ndb1029/711-final-project/gza_files_1/core-metrics/unweighted_unifrac_pcoa_results.qza --o-biplot unweighted_unifrac_pcoa_biplot
+
+    qiime emperor biplot --i-biplot /home/users/ndb1029/711-final-project/gza_files_1/core-metrics/unweighted_unifrac_pcoa_biplot.qza --m-sample-metadata-file sample-metadata.tsv --o-visualization unweighted_unifrac_pcoa_biplot
+
+    qiime diversity alpha-group-significance --i-alpha-diversity /home/users/ndb1029/711-final-project/gza_files_1/core-metrics/shannon_vector.qza --m-metadata-file sample-metadata.tsv --o-visualization alpha-group-significance
+
 
