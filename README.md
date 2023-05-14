@@ -18,11 +18,15 @@
   As a group, we downloaded the fastq file to our RON computer cluster. Using the conda envionrment we trimmed and preparred the two samples for further analyzation. Next, we denoised the data using the quiime enviornment. When the samples were ready, we continued to use quiime features to obtain infographics and data on the taxonomy and diversity of our samples. We used https://view.qiime2.org to visualize any files that were obtained.
 
 # Findings
-
-<img width="1029" alt="Screenshot 2023-05-14 at 7 29 45 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/397d1d39-bdf0-48de-bca4-db79ec6afb8d">
-<img width="1071" alt="Screenshot 2023-05-14 at 7 29 55 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/ffa5a645-7982-497b-a925-eaa1ea1f0a44">
+## Barplots of Taxonomy
 <img width="1073" alt="Screenshot 2023-05-14 at 7 30 09 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/350bec14-8052-4cb2-bd15-b05e06e1a45c">
 <img width="1077" alt="Screenshot 2023-05-14 at 7 30 16 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/5aaca985-ed42-491f-b3dc-ccd862881cb7">
+
+## Alpha Diversity
+<img width="1071" alt="Screenshot 2023-05-14 at 7 29 55 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/ffa5a645-7982-497b-a925-eaa1ea1f0a44">
+
+## PCA Analysis
+<img width="1029" alt="Screenshot 2023-05-14 at 7 29 45 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/397d1d39-bdf0-48de-bca4-db79ec6afb8d">
 
 
 # Citations
