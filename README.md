@@ -14,6 +14,8 @@
   Data collection consisted primarily from fecal sample swabs, and ocassionally stool samples. Parents were then asked to rate their child's ASD symptoms and severity of GI problems. Using the samples, microbial DNA was extracted using PowerSoil® DNA Isolation Kit (Kang et al., 2017). A librray was then prepped and a barcoded primer set was used to sequence, identify, then amplify the 16S rRNA V4 region of the microbial DNA.
   
   A subset of Kang's data was then extracted to utilzie in the QUIIME 2 exercise. This subset of data consists of a total of ten individuals. Then, between six and sixteen samples per individual were added to the dataset. 
+  
+  As a group, we downloaded the fastq file to our RON computer cluster. Using the conda envionrment we trimmed and preparred the two samples for further analyzation. Next, we denoised the data using the quiime enviornment. When the samples were ready, we continued to use quiime features to obtain infographics and data on the taxonomy and diversity of our samples. We used https://view.qiime2.org to visualize any files that were obtained.
 
 # Findings
 
