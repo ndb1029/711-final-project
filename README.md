@@ -45,11 +45,16 @@
 
 
 <img width="1084" alt="Screenshot 2023-05-16 at 4 04 33 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/71a59d62-c5d9-4530-bf13-79555574c8fc">
+  Figure 7. These box and whisker plots compare the level of diversity in sample 1 and 2, specifically between gender. With a p-value of 0.354 sample 2 had significant diversity within males with a rather high median shannon entropy score of 2.4. Sample 1 did not have significant diversity in either the male and female participants (p-value 0.881). As well, Sample 1 males and females had a similar median shannon entropy score ( m = 2.0, f = 2.1). 
 
 
 ## PCA Analysis
 <img width="1029" alt="Screenshot 2023-05-14 at 7 29 45 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/397d1d39-bdf0-48de-bca4-db79ec6afb8d">
+  Figure 8.  These two figures denote two PCA plots. Sample one compares control vs treatment groups, whereas sample two compares donor vs treatment groups. Based off the PCA, there are no identifiable characteristics that are shared in common.  
+
+
 <img width="1070" alt="Screenshot 2023-05-16 at 4 05 03 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/1ddc3b7c-8831-47de-91a3-8ba42a14b09f">
+  Table 2. These tables identify the sample IDs. It denotes how the sample was taken, the treatment group, gender and shannon entropy number.
 
 
 # Citations
