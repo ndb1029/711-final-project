@@ -21,12 +21,19 @@
 ## Barplots of Taxonomy
 <img width="1073" alt="Screenshot 2023-05-14 at 7 30 09 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/350bec14-8052-4cb2-bd15-b05e06e1a45c">
 <img width="1077" alt="Screenshot 2023-05-14 at 7 30 16 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/5aaca985-ed42-491f-b3dc-ccd862881cb7">
+<img width="1047" alt="Screenshot 2023-05-16 at 4 02 54 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/02ec5d7b-3efc-4121-b7db-e0337bd38bc4">
+<img width="1026" alt="Screenshot 2023-05-16 at 4 03 04 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/4e32019c-f1b5-49fb-804e-b78f6806a1e0">
+<img width="1028" alt="Screenshot 2023-05-16 at 4 03 13 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/0b74f0f1-0da8-448a-ab87-d94a6f4568f6">
 
 ## Alpha Diversity
-<img width="1071" alt="Screenshot 2023-05-14 at 7 29 55 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/ffa5a645-7982-497b-a925-eaa1ea1f0a44">
+<img width="1059" alt="Screenshot 2023-05-16 at 4 04 22 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/90945c09-d82e-499a-ae34-7b3a7896869c">
+<img width="1068" alt="Screenshot 2023-05-16 at 4 04 03 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/4a889c90-b764-44ba-ad7c-16a9440f31ff">
+<img width="1084" alt="Screenshot 2023-05-16 at 4 04 33 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/71a59d62-c5d9-4530-bf13-79555574c8fc">
+
 
 ## PCA Analysis
 <img width="1029" alt="Screenshot 2023-05-14 at 7 29 45 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/397d1d39-bdf0-48de-bca4-db79ec6afb8d">
+<img width="1070" alt="Screenshot 2023-05-16 at 4 05 03 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/1ddc3b7c-8831-47de-91a3-8ba42a14b09f">
 
 
 # Citations
