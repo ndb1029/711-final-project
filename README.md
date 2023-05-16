@@ -37,7 +37,13 @@
 
 ## Alpha Diversity
 <img width="1059" alt="Screenshot 2023-05-16 at 4 04 22 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/90945c09-d82e-499a-ae34-7b3a7896869c">
+  Figure 5. These box and whisker plots compare the level of diversity in sample 1 and 2, specifically between sample types (swab and stool). With a p-value of 0.0455 sample 1 had significant diversity within the swab sample type. Sample 2 did not have significant diversity in either the swab or stool type (p-value 0.617). 
+
+
 <img width="1068" alt="Screenshot 2023-05-16 at 4 04 03 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/4a889c90-b764-44ba-ad7c-16a9440f31ff">
+  Figure 6. These box and whisker plots compare the level of diversity in sample 1 and 2, specifically between treatment groups (control and experimental). With a p-value of 0.179 sample 1 had significant diversity within the control group. As well, the treatment group in sample 1 has a larger median shannon entropy number than the control. Sample 2 did not have significant diversity in either the control or treatment groups and depicts a similar trend when looking at sample type (stool and swab) with a p-value 0.617. 
+
+
 <img width="1084" alt="Screenshot 2023-05-16 at 4 04 33 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/71a59d62-c5d9-4530-bf13-79555574c8fc">
 
 
@@ -54,3 +60,4 @@
 
 
 # Presentation 
+https://docs.google.com/presentation/d/1fOyjkWFtTcCavEDbnT64ifz8CMxDOuKyDDI5QPp_U0c/edit?usp=sharing 
