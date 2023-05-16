@@ -20,10 +20,20 @@
 # Findings
 ## Barplots of Taxonomy
 <img width="1073" alt="Screenshot 2023-05-14 at 7 30 09 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/350bec14-8052-4cb2-bd15-b05e06e1a45c">
+  Table 1. This table lists the bacteria identified in each of the samples. 
+
 <img width="1077" alt="Screenshot 2023-05-14 at 7 30 16 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/5aaca985-ed42-491f-b3dc-ccd862881cb7">
+  Figure 1. A barplot graph comparing Sample Type metadata across treatments, stool, and swabs. Sample 1 focuses on treatment and stool. While sample 2 focuses on stool and swabs. Sample 2 is more general as purple is more prominent, indicating that actinobacteria is present.
+  
 <img width="1047" alt="Screenshot 2023-05-16 at 4 02 54 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/02ec5d7b-3efc-4121-b7db-e0337bd38bc4">
+  Figure 2. These two barplots are comparing microbiota diversity between control group to treatment group. Sample 2 is more general than sample 1 as it mostly contains generalized bacteria and Actinobacteria.
+
 <img width="1026" alt="Screenshot 2023-05-16 at 4 03 04 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/4e32019c-f1b5-49fb-804e-b78f6806a1e0">
+  Figure 3. These barplots compare the microbiota of ages between both samples. Sample 1 has a clear trend of similar bacteria based on age. Age 8.1 has primarily one type of bacteria, as seen in orange. Age 10.7 has primarily Actinobacteria. And age 12.5 has primarily Bacteria, Firmicutes, Clostridia, and Clostridiales.
+
 <img width="1028" alt="Screenshot 2023-05-16 at 4 03 13 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/0b74f0f1-0da8-448a-ab87-d94a6f4568f6">
+  Figure 4. These boxplots compare microbiota across weight among sample 1 and 2. Samples with 50 kg primarily have related bacteria as denoted by orange. Samples with 63 kg primarily has Bacteria, Firmicutes, Clostridia, and Clostridiales. 
+
 
 ## Alpha Diversity
 <img width="1059" alt="Screenshot 2023-05-16 at 4 04 22 PM" src="https://github.com/ndb1029/711-final-project/assets/130377747/90945c09-d82e-499a-ae34-7b3a7896869c">
